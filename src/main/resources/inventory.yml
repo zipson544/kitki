@@ -1,0 +1,51 @@
+inventories:
+  main_inventory:
+    slots: 54
+    title: "&8&lZestawy"
+    0;1;7;8;9;17;36;44;45;46;52;53:
+      item:
+        id: "BLACK_STAINED_GLASS_PANE"
+        name: " "
+    20:
+      type: "kit: iron"
+    22:
+      type: "kit: diamond"
+    24:
+      type: "kit: food"
+  preview_inventory:
+    slots: 54
+    title: "&4&lKit Preview"
+    45:
+      item:
+        id: "ARROW"
+        name: "&7Go Back"
+      open_inventory: previous
+  kit_inventory:
+    slots: 45
+    title: "&8&lZestawy"
+    43:
+      type: kit_claim
+    44:
+      item:
+        id: "BARRIER"
+        name: "&cWróć"
+      open_inventory: previous
+  buy_requirements_inventory:
+    slots: 27
+    title: "&4&lBuy Kit Requirements"
+    13:
+      item:
+        id: "BOOK"
+        name: "&c&lRequirements"
+        lore:
+          - "%kit_requirements_message%"
+    10:
+      item:
+        id: "RED_STAINED_GLASS_PANE"
+        name: "&cGo Back"
+      type: buy_no
+    16:
+      item:
+        id: "GREEN_STAINED_GLASS_PANE"
+        name: "&aBuy"
+      type: buy_yes
